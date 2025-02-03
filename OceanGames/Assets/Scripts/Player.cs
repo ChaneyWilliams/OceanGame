@@ -7,7 +7,12 @@ public class Player : MonoBehaviour
     float speed = 8f;
     float jumpingPower = 16f;
     bool isFacingRight = true;
+    public bool canFire = true;
+    float timer;
 
+    public float timeBetweenShots = 1.5f;
+    [SerializeField] private Transform shootingPoint;
+    [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
@@ -28,15 +33,34 @@ public class Player : MonoBehaviour
 
         }
 
+        if (Input.GetMouseButtonDown(0) && canFire)
+        {
+            Shoot();
+        }
         Flip();
+        
     }
 
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+        if (!canFire)
+        {
+            timer = Time.deltaTime;
+            //Debug.Log(timer);
+            if (timer >= timeBetweenShots)
+            {
+                timer = 0f;
+                canFire = true;
+            }
+        }
     }
 
-
+    private void Shoot()
+    {
+        Instantiate(bulletPrefab, shootingPoint.position, transform.rotation);
+        canFire = false;
+    }
     private bool isGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
@@ -49,6 +73,10 @@ public class Player : MonoBehaviour
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
+            Bullet bullet = bulletPrefab.GetComponent<Bullet>();
+            bullet.SetDirection(bullet.direction * -1f);
+            //Debug.Log(bullet.direction);
+
         }
     }
 }
