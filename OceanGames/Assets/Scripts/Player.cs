@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     bool isFacingRight = true;
     public bool canFire = true;
     float timer;
+    Bullet bullet;
+
 
     public float timeBetweenShots = 1.5f;
     [SerializeField] private Transform shootingPoint;
@@ -17,6 +19,13 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+    private void Start()
+    {
+        bullet = bulletPrefab.GetComponent<Bullet>();
+        bullet.SetDirection(1f);
+    }
+
+    //see bullet script
     private void Update()
     {
 
@@ -73,10 +82,11 @@ public class Player : MonoBehaviour
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
-            Bullet bullet = bulletPrefab.GetComponent<Bullet>();
-            bullet.SetDirection(bullet.direction * -1f);
-            //Debug.Log(bullet.direction);
-
+            if (isFacingRight)
+            {
+                bullet.SetDirection(1f);
+            }
+            else { bullet.SetDirection(-1f); }
         }
     }
 }
