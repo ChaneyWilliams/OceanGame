@@ -46,6 +46,15 @@ public class Player : MonoBehaviour
         {
             Shoot();
         }
+        if (!canFire)
+        {
+            timer += Time.deltaTime;
+            if (timer >= timeBetweenShots)
+            {
+                timer = 0f;
+                canFire = true;
+            }
+        }
         Flip();
         
     }
@@ -53,16 +62,7 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
-        if (!canFire)
-        {
-            timer = Time.deltaTime;
-            //Debug.Log(timer);
-            if (timer >= timeBetweenShots)
-            {
-                timer = 0f;
-                canFire = true;
-            }
-        }
+
     }
 
     private void Shoot()

@@ -112,7 +112,7 @@ Transform:
   m_GameObject: {fileID: 4480633248745464345}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.52, z: 0}
+  m_LocalPosition: {x: 0, y: -3.37, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -147,8 +147,8 @@ Transform:
   m_GameObject: {fileID: 5600640422555414771}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.25431886, y: 0.1586498, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.7514, y: 0.2608, z: 0}
+  m_LocalScale: {x: 0.46616775, y: 0.49190503, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7432803297478251482}
@@ -199,8 +199,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.073584795, g: 0.39061227, b: 1, a: 1}
+  m_Sprite: {fileID: 994934688894191941, guid: 1d0b4aeba10183f4f884042ff9e49f1c, type: 3}
+  m_Color: {r: 0.98490566, g: 0.98490566, b: 0.98490566, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -244,17 +244,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.11545372, y: 0.030943274}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 7.05, y: 6.37}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 6.646736, y: 5.9302835}
   m_EdgeRadius: 0
 --- !u!50 &8131620480891136557
 Rigidbody2D:
@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canFire: 1
-  timeBetweenShots: 0
+  timeBetweenShots: 0.25
   shootingPoint: {fileID: 613574972235385894}
   bulletPrefab: {fileID: 934798244663781195, guid: 0931e643900b6cd4ab5954b4dd2293d1, type: 3}
   rb: {fileID: 8131620480891136557}
