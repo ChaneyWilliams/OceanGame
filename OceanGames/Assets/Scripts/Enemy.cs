@@ -2,15 +2,16 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    int health = 10;
+    void OnTriggerEnter2D(Collider2D other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.CompareTag("PlayerBullet"))
+        {
+            health--;
+        }
+        if (health <= 0)
+        {
+            Object.Destroy(this.gameObject);
+        }
     }
 }
