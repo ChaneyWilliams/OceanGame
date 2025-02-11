@@ -4,23 +4,16 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float speed = 20f;
-    private CircleCollider2D circleCollider;
-    public float destoryTimer;
-    public float damage;
+    public float destroyTimer;
+    public float damage = 5f;
     float timer;
-
+    bool hit = false;
     public float direction = 1f;
-    private bool hit;
 
 
 
     // make the bullets disappear when they hit something or after certain time/distance
 
-    private void Awake()
-    {
-        circleCollider = GetComponent<CircleCollider2D>();
-
-    }
     private void FixedUpdate()
     {
         if (hit) { return; }
@@ -29,7 +22,7 @@ public class Bullet : MonoBehaviour
         transform.Translate(movementSpeed, 0, 0);
         timer += Time.deltaTime;
         
-        if (timer > 5f) 
+        if (timer > destroyTimer) 
         {
             timer = 0;
             Destroy(this.gameObject);

@@ -5,7 +5,7 @@ public class Player : MonoBehaviour
 {
     float horizontal;
     float speed = 8f;
-    float jumpingPower = 16f;
+    public float jumpingPower = 16f;
     bool isFacingRight = true;
     public bool canFire = true;
     float timer;
