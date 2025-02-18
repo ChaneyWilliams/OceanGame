@@ -884,7 +884,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      IdleAnimation_OceanMan_Spritesheet_0: 763378573895890807
+      IdleAnimation_OceanMan_Spritesheet_1: 6931751570168078852
+      IdleAnimation_OceanMan_Spritesheet_10: 2421512008048660771
+      IdleAnimation_OceanMan_Spritesheet_11: -8909466531805740084
+      IdleAnimation_OceanMan_Spritesheet_12: 2098577295304390266
+      IdleAnimation_OceanMan_Spritesheet_13: 231109019730791842
+      IdleAnimation_OceanMan_Spritesheet_14: 2852161817806002224
+      IdleAnimation_OceanMan_Spritesheet_15: 289244613039038006
+      IdleAnimation_OceanMan_Spritesheet_16: 3276777397675887459
+      IdleAnimation_OceanMan_Spritesheet_17: -1164671614198980640
+      IdleAnimation_OceanMan_Spritesheet_18: 3100187608986429544
+      IdleAnimation_OceanMan_Spritesheet_19: 955140980395026675
+      IdleAnimation_OceanMan_Spritesheet_2: 190565870782911101
+      IdleAnimation_OceanMan_Spritesheet_20: -5711377918583324958
+      IdleAnimation_OceanMan_Spritesheet_21: 7413440895531880312
+      IdleAnimation_OceanMan_Spritesheet_22: 6021382673440329512
+      IdleAnimation_OceanMan_Spritesheet_23: -6234443515814957313
+      IdleAnimation_OceanMan_Spritesheet_24: 6884250461045410753
+      IdleAnimation_OceanMan_Spritesheet_25: -6213212528036847090
+      IdleAnimation_OceanMan_Spritesheet_26: -8664507563050255493
+      IdleAnimation_OceanMan_Spritesheet_27: -6370723506578204427
+      IdleAnimation_OceanMan_Spritesheet_28: 4078584800328839347
+      IdleAnimation_OceanMan_Spritesheet_29: 2062634906532459677
+      IdleAnimation_OceanMan_Spritesheet_3: -1916286414444473172
+      IdleAnimation_OceanMan_Spritesheet_30: -705784613419460310
+      IdleAnimation_OceanMan_Spritesheet_4: -821822741164466170
+      IdleAnimation_OceanMan_Spritesheet_5: 5980246268964602612
+      IdleAnimation_OceanMan_Spritesheet_6: 1277699029920303911
+      IdleAnimation_OceanMan_Spritesheet_7: -6027504402098780367
+      IdleAnimation_OceanMan_Spritesheet_8: 8766152545943176258
+      IdleAnimation_OceanMan_Spritesheet_9: -7311008985087672831
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
