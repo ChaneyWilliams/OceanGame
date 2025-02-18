@@ -1,0 +1,892 @@
+fileFormatVersion: 2
+guid: a42d597548424904aa150dc97de402c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 763378573895890807
+    second: IdleAnimation_OceanMan_Spritesheet_0
+  - first:
+      213: 6931751570168078852
+    second: IdleAnimation_OceanMan_Spritesheet_1
+  - first:
+      213: 190565870782911101
+    second: IdleAnimation_OceanMan_Spritesheet_2
+  - first:
+      213: -1916286414444473172
+    second: IdleAnimation_OceanMan_Spritesheet_3
+  - first:
+      213: -821822741164466170
+    second: IdleAnimation_OceanMan_Spritesheet_4
+  - first:
+      213: 5980246268964602612
+    second: IdleAnimation_OceanMan_Spritesheet_5
+  - first:
+      213: 1277699029920303911
+    second: IdleAnimation_OceanMan_Spritesheet_6
+  - first:
+      213: -6027504402098780367
+    second: IdleAnimation_OceanMan_Spritesheet_7
+  - first:
+      213: 8766152545943176258
+    second: IdleAnimation_OceanMan_Spritesheet_8
+  - first:
+      213: -7311008985087672831
+    second: IdleAnimation_OceanMan_Spritesheet_9
+  - first:
+      213: 2421512008048660771
+    second: IdleAnimation_OceanMan_Spritesheet_10
+  - first:
+      213: -8909466531805740084
+    second: IdleAnimation_OceanMan_Spritesheet_11
+  - first:
+      213: 2098577295304390266
+    second: IdleAnimation_OceanMan_Spritesheet_12
+  - first:
+      213: 231109019730791842
+    second: IdleAnimation_OceanMan_Spritesheet_13
+  - first:
+      213: 2852161817806002224
+    second: IdleAnimation_OceanMan_Spritesheet_14
+  - first:
+      213: 289244613039038006
+    second: IdleAnimation_OceanMan_Spritesheet_15
+  - first:
+      213: 3276777397675887459
+    second: IdleAnimation_OceanMan_Spritesheet_16
+  - first:
+      213: -1164671614198980640
+    second: IdleAnimation_OceanMan_Spritesheet_17
+  - first:
+      213: 3100187608986429544
+    second: IdleAnimation_OceanMan_Spritesheet_18
+  - first:
+      213: 955140980395026675
+    second: IdleAnimation_OceanMan_Spritesheet_19
+  - first:
+      213: -5711377918583324958
+    second: IdleAnimation_OceanMan_Spritesheet_20
+  - first:
+      213: 7413440895531880312
+    second: IdleAnimation_OceanMan_Spritesheet_21
+  - first:
+      213: 6021382673440329512
+    second: IdleAnimation_OceanMan_Spritesheet_22
+  - first:
+      213: -6234443515814957313
+    second: IdleAnimation_OceanMan_Spritesheet_23
+  - first:
+      213: 6884250461045410753
+    second: IdleAnimation_OceanMan_Spritesheet_24
+  - first:
+      213: -6213212528036847090
+    second: IdleAnimation_OceanMan_Spritesheet_25
+  - first:
+      213: -8664507563050255493
+    second: IdleAnimation_OceanMan_Spritesheet_26
+  - first:
+      213: -6370723506578204427
+    second: IdleAnimation_OceanMan_Spritesheet_27
+  - first:
+      213: 4078584800328839347
+    second: IdleAnimation_OceanMan_Spritesheet_28
+  - first:
+      213: 2062634906532459677
+    second: IdleAnimation_OceanMan_Spritesheet_29
+  - first:
+      213: -705784613419460310
+    second: IdleAnimation_OceanMan_Spritesheet_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1037
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7777536b4c0189a00800000000000000
+      internalID: 763378573895890807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1037
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402ef1bb357823060800000000000000
+      internalID: 6931751570168078852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1037
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72145a56a605a200800000000000000
+      internalID: 190565870782911101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1037
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca45123b8abf765e0800000000000000
+      internalID: -1916286414444473172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1037
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600ed84329c4894f0800000000000000
+      internalID: -821822741164466170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 781
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f28df20c4a1ef250800000000000000
+      internalID: 5980246268964602612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 781
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bc2488f7c4bb110800000000000000
+      internalID: 1277699029920303911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 781
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1378cce6ea00a5ca0800000000000000
+      internalID: -6027504402098780367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 781
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24444d3ab41a7a970800000000000000
+      internalID: 8766152545943176258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 781
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ef82e30141a8a90800000000000000
+      internalID: -7311008985087672831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 525
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32155137750fa9120800000000000000
+      internalID: 2421512008048660771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 525
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3cc79c4673b5480800000000000000
+      internalID: -8909466531805740084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 525
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76715c6ee4af1d10800000000000000
+      internalID: 2098577295304390266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 525
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad4171dd60153300800000000000000
+      internalID: 231109019730791842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 525
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0385248df0ae49720800000000000000
+      internalID: 2852161817806002224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 269
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e136d617a930400800000000000000
+      internalID: 289244613039038006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 269
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b008c9ea3797d20800000000000000
+      internalID: 3276777397675887459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 269
+        width: 142
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef50bb665146dfe0800000000000000
+      internalID: -1164671614198980640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 269
+        width: 142
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86824b27434160b20800000000000000
+      internalID: 3100187608986429544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 269
+        width: 142
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f82dde39a7514d00800000000000000
+      internalID: 955140980395026675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 237
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eeb4d01b0c1db0b0800000000000000
+      internalID: -5711377918583324958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 236
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f08856735d1e660800000000000000
+      internalID: 7413440895531880312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 238
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f4a1b83af309350800000000000000
+      internalID: 6021382673440329512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 236
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffeac9367aeca79a0800000000000000
+      internalID: -6234443515814957313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 240
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb4e6be155c98f50800000000000000
+      internalID: 6884250461045410753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 239
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e026b50ff1c36c9a0800000000000000
+      internalID: -6213212528036847090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 13
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b34b6274c71c780800000000000000
+      internalID: -8664507563050255493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 228
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8dc2c69b4a697a0800000000000000
+      internalID: -6370723506578204427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 13
+        width: 142
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b078e1444b0a9830800000000000000
+      internalID: 4078584800328839347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 13
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d943039e483ff9c10800000000000000
+      internalID: 2062634906532459677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnimation_OceanMan_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 13
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29523d22ac8436f0800000000000000
+      internalID: -705784613419460310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

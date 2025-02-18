@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      placeholdSpriteTransparentBg_ND 1_0: 18645390150614823
+      placeholdSpriteTransparentBg_ND 1_1: 4163032066490313606
+      placeholdSpriteTransparentBg_ND 1_2: -7464126917568019873
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
