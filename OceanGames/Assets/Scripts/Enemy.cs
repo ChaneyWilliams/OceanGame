@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 
     SpriteFlasher flasher;
     [SerializeField] private GameObject particles;
-    public Color color = Color.red;
+    [SerializeField] public Color color = Color.white;
     public float health = 10;
 
     private void Awake()
@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("PlayerBullet"))
+        if (other.CompareTag("PlayerBullet") && !flasher.isFlashing)
         {
             Bullet damage = other.GetComponent<Bullet>();
             health -= damage.damage;

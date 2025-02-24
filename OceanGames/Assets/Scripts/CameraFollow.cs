@@ -13,14 +13,17 @@ public class CameraFollow : MonoBehaviour
 
     private void Update()
     {
-        if (player.position.y > camerapos.y + 5)
+        if (player != null)
         {
-            yValue = player.position.y - 5f;
+            if (player.position.y > camerapos.y + 5)
+            {
+                yValue = player.position.y - 5f;
+            }
+            else if (player.position.y < camerapos.y - 5)
+            {
+                yValue = player.position.y + 5f;
+            }
+            this.transform.position = new Vector3(camerapos.x + player.position.x, yValue, -10);
         }
-        else if (player.position.y < camerapos.y - 5)
-        {
-            yValue = player.position.y + 5f;
-        }
-        this.transform.position = new Vector3(camerapos.x + player.position.x, yValue, -10);
     }
 }

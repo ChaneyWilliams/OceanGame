@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using static Pathfinding.Util.RetainedGizmos;
 
 public class Player : MonoBehaviour
 {
@@ -10,7 +11,9 @@ public class Player : MonoBehaviour
     public bool canFire = true;
     float timer;
     Bullet bullet;
-
+    int health = 3;
+    SpriteFlasher flasher;
+    public Color color = Color.white;
 
     public float timeBetweenShots = 1.5f;
     [SerializeField] private Transform shootingPoint;
@@ -23,6 +26,7 @@ public class Player : MonoBehaviour
     {
         bullet = bulletPrefab.GetComponent<Bullet>();
         bullet.SetDirection(1f);
+        flasher = GetComponent<SpriteFlasher>();
     }
 
     //see bullet script
@@ -64,7 +68,19 @@ public class Player : MonoBehaviour
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
 
     }
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy") && !flasher.isFlashing)
+        {
+            health -= 1;
+            Debug.Log(health);
+            StartCoroutine(flasher.Flash(2, color, 4));
+        }
+        if (health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
     private void Shoot()
     {
         Instantiate(bulletPrefab, shootingPoint.position, transform.rotation);
