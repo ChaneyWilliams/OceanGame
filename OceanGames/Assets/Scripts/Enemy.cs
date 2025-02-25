@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 
     SpriteFlasher flasher;
     [SerializeField] private GameObject particles;
-    [SerializeField] public Color color = Color.white;
+    public Color color = Color.white;
     public float health = 10;
 
     private void Awake()
