@@ -40,12 +40,4 @@ public class MovingPlatform : MonoBehaviour
         running = false;
         yield return null;
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (gameObject.CompareTag("Player"))
-        {
-            collision.gameObject.transform.parent = this.transform;
-            Debug.Log("Touching");
-        }
-    }
 }
