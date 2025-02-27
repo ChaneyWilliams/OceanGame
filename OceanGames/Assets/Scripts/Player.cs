@@ -5,7 +5,7 @@ using static Pathfinding.Util.RetainedGizmos;
 public class Player : MonoBehaviour
 {
     float horizontal;
-    float speed = 8f;
+    public float speed = 8f;
     public float jumpingPower = 16f;
     bool isFacingRight = true;
     public bool canFire = true;
@@ -104,5 +104,9 @@ public class Player : MonoBehaviour
             }
             else { bullet.SetDirection(-1f); }
         }
+    }
+    public void SetSpeed(float newspeed)
+    {
+        speed = newspeed;
     }
 }
