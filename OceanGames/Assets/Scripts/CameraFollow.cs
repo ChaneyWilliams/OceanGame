@@ -8,22 +8,22 @@ public class CameraFollow : MonoBehaviour
 
     public void Awake()
     {
-        camerapos = this.transform.position;
+        camerapos = transform.position;
     }
 
     private void LateUpdate()
     {
         if (player != null)
         {
-            if (player.position.y > camerapos.y + 5)
+            if (player.position.y > camerapos.y + 1)
             {
-                yValue = player.position.y - 5f;
+                yValue = player.position.y - 1f;
             }
-            else if (player.position.y < camerapos.y - 5)
+            else if (player.position.y < camerapos.y - 1)
             {
-                yValue = player.position.y + 5f;
+                yValue = player.position.y + 1f;
             }
-            this.transform.position = new Vector3(camerapos.x + player.position.x, yValue, -10);
+            transform.position = new Vector3(camerapos.x + player.position.x, yValue - 2f, -15);
         }
     }
 }

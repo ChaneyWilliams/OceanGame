@@ -166,6 +166,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  destroyTimer: 2
+  destroyTimer: 1.5
   damage: 5
   direction: 1
