@@ -6,6 +6,8 @@ TagManager:
   tags:
   - PlayerBullet
   - Enemy
+  - NextScene
+  - Winner
   layers:
   - Default
   - TransparentFX

@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using static Pathfinding.Util.RetainedGizmos;
 
 public class Player : MonoBehaviour
@@ -21,6 +22,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
+    public GameObject WinnerUI;
 
     private void Start()
     {
@@ -79,6 +81,15 @@ public class Player : MonoBehaviour
         if (health <= 0)
         {
             Destroy(this.gameObject);
+        }
+        if (collision.gameObject.CompareTag("NextScene"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        if (collision.gameObject.CompareTag("Winner"))
+        {
+            Time.timeScale = 0f;
+            WinnerUI.SetActive(true);
         }
     }
     private void Shoot()
