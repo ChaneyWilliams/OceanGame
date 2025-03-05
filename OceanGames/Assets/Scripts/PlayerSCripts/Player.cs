@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     public GameObject WinnerUI;
+    public GameObject loserUI;
 
     private void Start()
     {
@@ -80,7 +81,11 @@ public class Player : MonoBehaviour
         }
         if (health <= 0)
         {
-            Destroy(this.gameObject);
+            loserUI.SetActive(true);
+            SpriteRenderer sprite = gameObject.GetComponent<SpriteRenderer>();
+            bullet.enabled = false;
+            sprite.enabled = false;
+            Time.timeScale = 0f;
         }
         if (collision.gameObject.CompareTag("NextScene"))
         {

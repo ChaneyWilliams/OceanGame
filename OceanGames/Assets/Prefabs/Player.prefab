@@ -281,6 +281,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   WinnerUI: {fileID: 8708820848432682887}
+  loserUI: {fileID: 6058614803658825834}
 --- !u!114 &1584656930549920740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -435,6 +436,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8110882998814867045}
     m_Modifications:
+    - target: {fileID: 628600357642458690, guid: 554233701a986a6428196de5533a151f, type: 3}
+      propertyPath: m_Name
+      value: LoserMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 7042254886607967990, guid: 554233701a986a6428196de5533a151f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -527,6 +532,11 @@ PrefabInstance:
 --- !u!224 &4401889457720090846 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7042254886607967990, guid: 554233701a986a6428196de5533a151f, type: 3}
+  m_PrefabInstance: {fileID: 6678199026299942440}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6058614803658825834 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 628600357642458690, guid: 554233701a986a6428196de5533a151f, type: 3}
   m_PrefabInstance: {fileID: 6678199026299942440}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &8708820848432682887 stripped
