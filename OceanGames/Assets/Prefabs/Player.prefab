@@ -440,6 +440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LoserMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 2565360439188469973, guid: 554233701a986a6428196de5533a151f, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 934798244663781195, guid: 0931e643900b6cd4ab5954b4dd2293d1, type: 3}
     - target: {fileID: 7042254886607967990, guid: 554233701a986a6428196de5533a151f, type: 3}
       propertyPath: m_Pivot.x
       value: 0

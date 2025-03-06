@@ -30,6 +30,8 @@ public class Player : MonoBehaviour
         bullet = bulletPrefab.GetComponent<Bullet>();
         bullet.SetDirection(1f);
         flasher = GetComponent<SpriteFlasher>();
+        bullet.enabled = true;
+        bulletPrefab.SetActive(true);
     }
 
     //see bullet script
@@ -83,8 +85,8 @@ public class Player : MonoBehaviour
         {
             loserUI.SetActive(true);
             SpriteRenderer sprite = gameObject.GetComponent<SpriteRenderer>();
-            bullet.enabled = false;
             sprite.enabled = false;
+            bulletPrefab.SetActive(false);
             Time.timeScale = 0f;
         }
         if (collision.gameObject.CompareTag("NextScene"))
@@ -94,6 +96,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Winner"))
         {
             Time.timeScale = 0f;
+            bulletPrefab.SetActive(false);
             WinnerUI.SetActive(true);
         }
     }
