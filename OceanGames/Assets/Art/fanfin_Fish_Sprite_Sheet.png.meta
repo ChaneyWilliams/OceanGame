@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: e0e0e99ae3fd3f04aabe9a9eda38f9e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2818035459372612663
+    second: fanfin_Fish_Sprite_Sheet_0
+  - first:
+      213: -4177871870601908062
+    second: fanfin_Fish_Sprite_Sheet_1
+  - first:
+      213: 343469869191201766
+    second: fanfin_Fish_Sprite_Sheet_2
+  - first:
+      213: -8407021866427844241
+    second: fanfin_Fish_Sprite_Sheet_3
+  - first:
+      213: -5487608361127993090
+    second: fanfin_Fish_Sprite_Sheet_4
+  - first:
+      213: 4076708093133882000
+    second: fanfin_Fish_Sprite_Sheet_5
+  - first:
+      213: -2513484344557544255
+    second: fanfin_Fish_Sprite_Sheet_6
+  - first:
+      213: 676743989994262829
+    second: fanfin_Fish_Sprite_Sheet_7
+  - first:
+      213: -2234750575510959667
+    second: fanfin_Fish_Sprite_Sheet_8
+  - first:
+      213: 8396424550322582881
+    second: fanfin_Fish_Sprite_Sheet_9
+  - first:
+      213: -4443805113883925522
+    second: fanfin_Fish_Sprite_Sheet_10
+  - first:
+      213: 2612278862109892035
+    second: fanfin_Fish_Sprite_Sheet_11
+  - first:
+      213: -1715014154354882939
+    second: fanfin_Fish_Sprite_Sheet_12
+  - first:
+      213: 3308407683247228104
+    second: fanfin_Fish_Sprite_Sheet_13
+  - first:
+      213: -1984433606946805042
+    second: fanfin_Fish_Sprite_Sheet_14
+  - first:
+      213: 1336842294291831438
+    second: fanfin_Fish_Sprite_Sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 4330
+        width: 1205
+        height: 989
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cfb58d15cab1720800000000000000
+      internalID: 2818035459372612663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 4330
+        width: 1205
+        height: 989
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a03da34ba73506c0800000000000000
+      internalID: -4177871870601908062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3938
+        y: 4329
+        width: 1206
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e30138b60044c400800000000000000
+      internalID: 343469869191201766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 5858
+        y: 4329
+        width: 1206
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6970a0a722445b80800000000000000
+      internalID: -8407021866427844241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7775
+        y: 4354
+        width: 1208
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0a088254918d3b0800000000000000
+      internalID: -5487608361127993090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 3274
+        width: 1208
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09284305960639830800000000000000
+      internalID: 4076708093133882000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 3249
+        width: 1206
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc542e3e4f4e1dd0800000000000000
+      internalID: -2513484344557544255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3938
+        y: 3249
+        width: 1206
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d211d77c217446900800000000000000
+      internalID: 676743989994262829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 5860
+        y: 3250
+        width: 1205
+        height: 989
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9c11911329cf0e0800000000000000
+      internalID: -2234750575510959667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 7780
+        y: 3250
+        width: 1205
+        height: 989
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165b85174a7168470800000000000000
+      internalID: 8396424550322582881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2169
+        width: 1206
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee362ef0bce6452c0800000000000000
+      internalID: -4443805113883925522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 2169
+        width: 1206
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd525ed8cda04420800000000000000
+      internalID: 2612278862109892035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3935
+        y: 2194
+        width: 1208
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58609e096bb0338e0800000000000000
+      internalID: -1715014154354882939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 5855
+        y: 2194
+        width: 1208
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4cf1c5243d9ed20800000000000000
+      internalID: 3308407683247228104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 7778
+        y: 2169
+        width: 1206
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecaa6910620e574e0800000000000000
+      internalID: -1984433606946805042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanfin_Fish_Sprite_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1089
+        width: 1206
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a9bf7dbfa6d8210800000000000000
+      internalID: 1336842294291831438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
