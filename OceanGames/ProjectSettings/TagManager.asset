@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - NextScene
   - Winner
+  - KillBox
   layers:
   - Default
   - TransparentFX

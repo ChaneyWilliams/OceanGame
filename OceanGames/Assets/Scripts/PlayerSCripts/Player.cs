@@ -64,6 +64,10 @@ public class Player : MonoBehaviour
                 canFire = true;
             }
         }
+        if(health <= 0)
+        {
+            Death();
+        }
         Flip();
         
     }
@@ -81,13 +85,9 @@ public class Player : MonoBehaviour
             Debug.Log(health);
             StartCoroutine(flasher.Flash(2, color, 4));
         }
-        if (health <= 0)
+        if (collision.gameObject.CompareTag("KillBox"))
         {
-            loserUI.SetActive(true);
-            SpriteRenderer sprite = gameObject.GetComponent<SpriteRenderer>();
-            sprite.enabled = false;
-            bulletPrefab.SetActive(false);
-            Time.timeScale = 0f;
+            Death();
         }
         if (collision.gameObject.CompareTag("NextScene"))
         {
@@ -127,5 +127,13 @@ public class Player : MonoBehaviour
     public void SetSpeed(float newspeed)
     {
         speed = newspeed;
+    }
+    public void Death()
+    {
+        loserUI.SetActive(true);
+        SpriteRenderer sprite = gameObject.GetComponent<SpriteRenderer>();
+        sprite.enabled = false;
+        bulletPrefab.SetActive(false);
+        Time.timeScale = 0f;
     }
 }
