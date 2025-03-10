@@ -9,6 +9,8 @@ public class CameraFollow : MonoBehaviour
     public void Awake()
     {
         camerapos = transform.position;
+        Camera cam = GetComponent<Camera>();
+        cam.orthographicSize = 10;
     }
 
     private void LateUpdate()
