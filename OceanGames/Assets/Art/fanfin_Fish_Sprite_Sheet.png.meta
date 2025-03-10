@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fanfin_Fish_Sprite_Sheet_0: 2818035459372612663
+      fanfin_Fish_Sprite_Sheet_1: -4177871870601908062
+      fanfin_Fish_Sprite_Sheet_10: -4443805113883925522
+      fanfin_Fish_Sprite_Sheet_11: 2612278862109892035
+      fanfin_Fish_Sprite_Sheet_12: -1715014154354882939
+      fanfin_Fish_Sprite_Sheet_13: 3308407683247228104
+      fanfin_Fish_Sprite_Sheet_14: -1984433606946805042
+      fanfin_Fish_Sprite_Sheet_15: 1336842294291831438
+      fanfin_Fish_Sprite_Sheet_2: 343469869191201766
+      fanfin_Fish_Sprite_Sheet_3: -8407021866427844241
+      fanfin_Fish_Sprite_Sheet_4: -5487608361127993090
+      fanfin_Fish_Sprite_Sheet_5: 4076708093133882000
+      fanfin_Fish_Sprite_Sheet_6: -2513484344557544255
+      fanfin_Fish_Sprite_Sheet_7: 676743989994262829
+      fanfin_Fish_Sprite_Sheet_8: -2234750575510959667
+      fanfin_Fish_Sprite_Sheet_9: 8396424550322582881
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

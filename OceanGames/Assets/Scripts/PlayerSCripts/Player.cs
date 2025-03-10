@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     public GameObject WinnerUI;
     public GameObject loserUI;
-
+    bool dead = false;
     private void Start()
     {
         bullet = bulletPrefab.GetComponent<Bullet>();
@@ -74,7 +74,16 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+        if (!dead)
+        {
+            rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+        }
+        else 
+        {
+            
+            rb.linearVelocity = Vector2.zero;
+            rb.gravityScale = 0;
+        }
 
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -134,6 +143,6 @@ public class Player : MonoBehaviour
         SpriteRenderer sprite = gameObject.GetComponent<SpriteRenderer>();
         sprite.enabled = false;
         bulletPrefab.SetActive(false);
-        Time.timeScale = 0f;
+        dead = true;
     }
 }

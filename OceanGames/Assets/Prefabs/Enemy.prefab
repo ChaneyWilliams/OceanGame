@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 739010655557226536, guid: be111cdfcfb273846b40d9552988e3c8, type: 3}
-  color: {r: 0.97735846, g: 0.9496974, b: 0.9496974, a: 1}
+  color: {r: 0.90188676, g: 0.07317187, b: 0.07317187, a: 1}
   health: 10
 --- !u!114 &7158353872884249984
 MonoBehaviour:
