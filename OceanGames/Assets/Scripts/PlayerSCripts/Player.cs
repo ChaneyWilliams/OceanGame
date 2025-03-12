@@ -12,7 +12,6 @@ public class Player : MonoBehaviour
     public bool canFire = true;
     float timer;
     Bullet bullet;
-    int health = 3;
     SpriteFlasher flasher;
     public Color color = Color.white;
 
@@ -25,6 +24,7 @@ public class Player : MonoBehaviour
     public GameObject WinnerUI;
     public GameObject loserUI;
     bool dead = false;
+    Health health;
     private void Start()
     {
         bullet = bulletPrefab.GetComponent<Bullet>();
@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
         flasher = GetComponent<SpriteFlasher>();
         bullet.enabled = true;
         bulletPrefab.SetActive(true);
+        health = GetComponent<Health>();
     }
 
     //see bullet script
@@ -64,7 +65,7 @@ public class Player : MonoBehaviour
                 canFire = true;
             }
         }
-        if(health <= 0)
+        if(health.health <= 0)
         {
             Death();
         }
@@ -90,8 +91,8 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy") && !flasher.isFlashing)
         {
-            health -= 1;
-            Debug.Log(health);
+            health.health -= 1;
+            Debug.Log(health.health);
             StartCoroutine(flasher.Flash(2, color, 4));
         }
         if (collision.gameObject.CompareTag("KillBox"))
