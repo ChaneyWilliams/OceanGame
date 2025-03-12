@@ -10,7 +10,7 @@ public class CameraFollow : MonoBehaviour
     {
         camerapos = transform.position;
         Camera cam = GetComponent<Camera>();
-        cam.orthographicSize = 10;
+        cam.orthographicSize = 9;
     }
 
     private void LateUpdate()

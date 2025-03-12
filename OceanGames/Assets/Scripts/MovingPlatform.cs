@@ -6,17 +6,18 @@ using UnityEngine.Rendering;
 
 public class MovingPlatform : MonoBehaviour
 {
-    public Transform start;
-    public Transform end;
     public float speed = 5f;
     bool running;
-    Queue<Transform> queue = new Queue<Transform>();
-
+    public Transform[] destinations;
+    public Queue<Transform> queue = new Queue<Transform>();
 
     private void Start()
     {
-        queue.Enqueue(start);
-        queue.Enqueue(end);
+        for (int i = 0; i < destinations.Length; i++)
+        {
+            queue.Enqueue(destinations[i]);
+        }
+        
     }
 
     private void FixedUpdate()
