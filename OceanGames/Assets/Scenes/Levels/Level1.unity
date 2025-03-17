@@ -2051,6 +2051,10 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 948437299873463548, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 2673526897683642683, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 0
