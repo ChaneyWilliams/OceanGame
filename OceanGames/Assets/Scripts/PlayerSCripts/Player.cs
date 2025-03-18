@@ -9,14 +9,10 @@ public class Player : MonoBehaviour
     public float speed = 8f;
     public float jumpingPower = 16f;
     bool isFacingRight = true;
-    public bool canFire = true;
-    float timer;
-    Bullet bullet;
     SpriteFlasher flasher;
     public Color color = Color.white;
 
     public float timeBetweenShots = 1.5f;
-    [SerializeField] private Transform shootingPoint;
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -25,12 +21,10 @@ public class Player : MonoBehaviour
     public GameObject loserUI;
     bool dead = false;
     Health health;
+    public Animator animator;
     private void Start()
     {
-        bullet = bulletPrefab.GetComponent<Bullet>();
-        bullet.SetDirection(1f);
         flasher = GetComponent<SpriteFlasher>();
-        bullet.enabled = true;
         bulletPrefab.SetActive(true);
         health = GetComponent<Health>();
     }
@@ -40,6 +34,11 @@ public class Player : MonoBehaviour
     {
 
         horizontal = Input.GetAxisRaw("Horizontal");
+        if (horizontal != 0)
+        {
+            animator.SetBool("Running", true);
+        }
+        else { animator.SetBool("Running", false); }
 
         if (Input.GetButtonDown("Jump") && isGrounded())
         {
@@ -52,19 +51,6 @@ public class Player : MonoBehaviour
 
         }
 
-        if (Input.GetMouseButtonDown(0) && canFire)
-        {
-            Shoot();
-        }
-        if (!canFire)
-        {
-            timer += Time.deltaTime;
-            if (timer >= timeBetweenShots)
-            {
-                timer = 0f;
-                canFire = true;
-            }
-        }
         if(health.health <= 0)
         {
             Death();
@@ -110,11 +96,6 @@ public class Player : MonoBehaviour
             WinnerUI.SetActive(true);
         }
     }
-    private void Shoot()
-    {
-        Instantiate(bulletPrefab, shootingPoint.position, transform.rotation);
-        canFire = false;
-    }
     private bool isGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
@@ -127,11 +108,6 @@ public class Player : MonoBehaviour
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
-            if (isFacingRight)
-            {
-                bullet.SetDirection(1f);
-            }
-            else { bullet.SetDirection(-1f); }
         }
     }
     public void SetSpeed(float newspeed)

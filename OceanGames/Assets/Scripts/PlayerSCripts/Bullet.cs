@@ -3,41 +3,37 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float speed = 20f;
-    public float destroyTimer;
-    public float damage = 5f;
-    float timer;
-    bool hit = false;
-    public float direction = 1f;
+    Vector3 mousePos;
+    Camera cam;
+    Rigidbody2D rb;
+    public float force;
+    public float damage = 5;
+    public float timer;
 
-
-
-    // make the bullets disappear when they hit something or after certain time/distance
-
-    private void FixedUpdate()
+    private void Start()
     {
-        if (hit) { return; }
-        float movementSpeed = speed * Time.deltaTime * direction;
-        //Debug.Log(movementSpeed);
-        transform.Translate(movementSpeed, 0, 0);
-        timer += Time.deltaTime;
-        
-        if (timer > destroyTimer) 
+        cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        rb = GetComponent<Rigidbody2D>();
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 directon = mousePos - transform.position;
+        Vector3 rotation = transform.position - mousePos;
+        rb.linearVelocity = new Vector2(directon.x, directon.y).normalized * force;
+        float rot = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, rot * 90);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (!collision.gameObject.CompareTag("Player"))
         {
-            timer = 0;
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
-    public void SetDirection(float newDirection)
+    private void Update()
     {
-        direction = newDirection;
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (!other.gameObject.CompareTag("Player"))
+        timer += Time.deltaTime;
+        if (timer > 5)
         {
-            Destroy(this.gameObject); 
+            Destroy(gameObject);
         }
     }
 }
