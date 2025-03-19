@@ -484,7 +484,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ThunderFistLogo_0: -6954784649340513699
+      ThunderFistLogo_1: -8724246811802664498
+      ThunderFistLogo_10: 567893168698078893
+      ThunderFistLogo_11: 2299553810999449611
+      ThunderFistLogo_12: -2510343148200769749
+      ThunderFistLogo_13: -2036113521740434272
+      ThunderFistLogo_14: 68539467799880617
+      ThunderFistLogo_2: -721820552812554115
+      ThunderFistLogo_3: -5420693624602120214
+      ThunderFistLogo_4: -4072138251151054591
+      ThunderFistLogo_5: 5134510646698950022
+      ThunderFistLogo_6: -864030845570088701
+      ThunderFistLogo_7: -1662747664148834913
+      ThunderFistLogo_8: 8996192988851421819
+      ThunderFistLogo_9: 5917587687105612995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

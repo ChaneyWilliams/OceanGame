@@ -469,7 +469,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 75664983}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 804618663}
+        m_TargetAssemblyTypeName: Tutorial, Assembly-CSharp
+        m_MethodName: SelfDestruct
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &75664983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1320,6 +1332,7 @@ GameObject:
   - component: {fileID: 804618660}
   - component: {fileID: 804618662}
   - component: {fileID: 804618661}
+  - component: {fileID: 804618663}
   m_Layer: 5
   m_Name: Tutorial
   m_TagString: Untagged
@@ -1386,6 +1399,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804618659}
   m_CullTransparentMesh: 1
+--- !u!114 &804618663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804618659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25528f5addc691c4dae986e214e97743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &882001247
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,6 +2195,10 @@ PrefabInstance:
       propertyPath: m_PresetInfoIsWorld
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2933755348474728086, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 2112898390}
     - target: {fileID: 3120693883565643193, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
       propertyPath: m_Camera
       value: 
@@ -3109,6 +3138,11 @@ Transform:
 --- !u!4 &2112898383 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7133652845290224177, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
+  m_PrefabInstance: {fileID: 1652184659}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &2112898390 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6535120498272154792, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
   m_PrefabInstance: {fileID: 1652184659}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6025258667436282072

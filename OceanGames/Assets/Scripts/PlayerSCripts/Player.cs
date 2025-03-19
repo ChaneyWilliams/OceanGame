@@ -8,7 +8,6 @@ public class Player : MonoBehaviour
     float horizontal;
     public float speed = 8f;
     public float jumpingPower = 16f;
-    bool isFacingRight = true;
     SpriteFlasher flasher;
     public Color color = Color.white;
     
@@ -29,17 +28,14 @@ public class Player : MonoBehaviour
         flasher = GetComponent<SpriteFlasher>();
         bulletPrefab.SetActive(true);
         health = GetComponent<Health>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     //see bullet script
     private void Update()
     {
-
         horizontal = Input.GetAxisRaw("Horizontal");
-        Debug.Log(Mathf.Abs(horizontal));
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
-
+        
         if (Input.GetButtonDown("Jump") && isGrounded())
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
@@ -56,7 +52,6 @@ public class Player : MonoBehaviour
             Death();
         }
         Flip();
-        
     }
 
     private void FixedUpdate()
@@ -104,12 +99,10 @@ public class Player : MonoBehaviour
     {
         if (horizontal < 0f)
         {
-            isFacingRight = !isFacingRight;
             spriteRenderer.flipX = true;
         }
         else if (horizontal > 0f)
         {
-            isFacingRight = !isFacingRight;
             spriteRenderer.flipX = false;
         }
     }

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      OceanMan_Background_0: -7460227970445889569
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

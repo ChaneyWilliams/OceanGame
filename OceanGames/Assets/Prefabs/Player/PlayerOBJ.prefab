@@ -302,6 +302,7 @@ MonoBehaviour:
   jumpingPower: 20
   color: {r: 1, g: 1, b: 1, a: 1}
   timeBetweenShots: 0.5
+  spriteRenderer: {fileID: 9182213864023591725}
   bulletPrefab: {fileID: 934798244663781195, guid: 0931e643900b6cd4ab5954b4dd2293d1, type: 3}
   rb: {fileID: 4154567586010660617}
   groundCheck: {fileID: 8501221230788410088}
@@ -310,6 +311,7 @@ MonoBehaviour:
     m_Bits: 8
   WinnerUI: {fileID: 0}
   loserUI: {fileID: 0}
+  animator: {fileID: 662398122202428752}
 --- !u!114 &2854841532636863355
 MonoBehaviour:
   m_ObjectHideFlags: 0
