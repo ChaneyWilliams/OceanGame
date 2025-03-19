@@ -11,8 +11,10 @@ public class Player : MonoBehaviour
     bool isFacingRight = true;
     SpriteFlasher flasher;
     public Color color = Color.white;
+    
 
     public float timeBetweenShots = 1.5f;
+    [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -27,6 +29,7 @@ public class Player : MonoBehaviour
         flasher = GetComponent<SpriteFlasher>();
         bulletPrefab.SetActive(true);
         health = GetComponent<Health>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     //see bullet script
@@ -34,11 +37,8 @@ public class Player : MonoBehaviour
     {
 
         horizontal = Input.GetAxisRaw("Horizontal");
-        if (horizontal != 0)
-        {
-            animator.SetBool("Running", true);
-        }
-        else { animator.SetBool("Running", false); }
+        Debug.Log(Mathf.Abs(horizontal));
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
         if (Input.GetButtonDown("Jump") && isGrounded())
         {
@@ -102,12 +102,15 @@ public class Player : MonoBehaviour
     }
     private void Flip()
     {
-        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
+        if (horizontal < 0f)
         {
             isFacingRight = !isFacingRight;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
+            spriteRenderer.flipX = true;
+        }
+        else if (horizontal > 0f)
+        {
+            isFacingRight = !isFacingRight;
+            spriteRenderer.flipX = false;
         }
     }
     public void SetSpeed(float newspeed)
@@ -117,8 +120,7 @@ public class Player : MonoBehaviour
     public void Death()
     {
         loserUI.SetActive(true);
-        SpriteRenderer sprite = gameObject.GetComponent<SpriteRenderer>();
-        sprite.enabled = false;
+        spriteRenderer.enabled = false;
         bulletPrefab.SetActive(false);
         dead = true;
     }
