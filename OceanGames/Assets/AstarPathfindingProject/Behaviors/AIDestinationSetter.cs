@@ -20,7 +20,12 @@ namespace Pathfinding {
 		public float aggroRange = 10f;
 		IAstarAI ai;
 
-		void OnEnable () {
+		SpriteRenderer spriteRenderer;
+        private void Start()
+        {
+            spriteRenderer = GetComponent<SpriteRenderer>();
+        }
+        void OnEnable () {
 			ai = GetComponent<IAstarAI>();
 			// Update the destination right before searching for a path as well.
 			// This is enough in theory, but this script will also update the destination every
@@ -36,7 +41,7 @@ namespace Pathfinding {
 		/// <summary>Updates the AI's destination every frame</summary>
 		void Update () {
 			if (target != null && ai != null) 
-			{ 
+			{
 				if (Vector3.Distance(target.position, idlePos.position) > aggroRange)
 				{
 					ai.destination = idlePos.position;
@@ -46,6 +51,18 @@ namespace Pathfinding {
                     ai.destination = target.position;
                 }
 			}
+			Flip();
 		}
-	}
+        private void Flip()
+        {
+            if (ai.velocity.x < 0)
+            {
+                spriteRenderer.flipX = true;
+            }
+            else if (ai.velocity.x > 0)
+            {
+                spriteRenderer.flipX = false;
+            }
+        }
+    }
 }

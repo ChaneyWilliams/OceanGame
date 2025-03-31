@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Oceanman_HealthBarFull_0: 2810601218206823048
+      Oceanman_HealthBarFull_1: 3288676309809041797
+      Oceanman_HealthBarFull_2: -4287941978156614075
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

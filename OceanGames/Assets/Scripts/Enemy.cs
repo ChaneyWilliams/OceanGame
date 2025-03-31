@@ -1,6 +1,7 @@
 using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 using static Pathfinding.Util.RetainedGizmos;
+using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class Enemy : MonoBehaviour
 {
@@ -9,10 +10,12 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject particles;
     public Color color = Color.white;
     public float health = 10;
+    SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
         flasher = GetComponent<SpriteFlasher>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     void OnTriggerEnter2D(Collider2D other)
     {
