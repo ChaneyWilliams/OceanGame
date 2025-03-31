@@ -110,6 +110,10 @@ public class Player : MonoBehaviour
     {
         speed = newspeed;
     }
+    public float GetSpeed() 
+    {
+        return speed;
+    }
     public void Death()
     {
         loserUI.SetActive(true);

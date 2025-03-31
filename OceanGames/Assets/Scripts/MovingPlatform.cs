@@ -10,7 +10,7 @@ public class MovingPlatform : MonoBehaviour
     bool running;
     public Transform[] destinations;
     public Queue<Transform> queue = new Queue<Transform>();
-
+    Transform parent;
     private void Start()
     {
         for (int i = 0; i < destinations.Length; i++)
@@ -45,6 +45,7 @@ public class MovingPlatform : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            parent = collision.gameObject.transform.parent;
             collision.gameObject.transform.parent = transform;
         }
     }
@@ -52,7 +53,7 @@ public class MovingPlatform : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.transform.parent = null;
+            collision.gameObject.transform.parent = parent;
         }
     }
 }
