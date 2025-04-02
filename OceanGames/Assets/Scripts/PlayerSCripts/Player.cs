@@ -2,6 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using static Pathfinding.Util.RetainedGizmos;
+using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
@@ -10,7 +11,11 @@ public class Player : MonoBehaviour
     public float jumpingPower = 16f;
     SpriteFlasher flasher;
     public Color color = Color.white;
-    
+    public int numJumps = 2;
+    int jumpsRemaining;
+    public float baseGravity = 2f;
+    public float maxFallSpeed = 10f;
+    public float fallSpeedMult = 2f;
 
     public float timeBetweenShots = 1.5f;
     [SerializeField] private SpriteRenderer spriteRenderer;
@@ -33,24 +38,15 @@ public class Player : MonoBehaviour
     //see bullet script
     private void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
+        rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
-        
-        if (Input.GetButtonDown("Jump") && isGrounded())
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
-
-        }
-        if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
-
-        }
 
         if(health.health <= 0)
         {
             Death();
         }
+        Gravity();
+        GroundCheck();
         Flip();
     }
 
@@ -91,9 +87,12 @@ public class Player : MonoBehaviour
             WinnerUI.SetActive(true);
         }
     }
-    private bool isGrounded()
+    private void GroundCheck()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        if (Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer))
+        {
+            jumpsRemaining = numJumps;
+        }
     }
     private void Flip()
     {
@@ -120,5 +119,37 @@ public class Player : MonoBehaviour
         spriteRenderer.enabled = false;
         bulletPrefab.SetActive(false);
         dead = true;
+    }
+    public void Move(InputAction.CallbackContext context)
+    {
+        horizontal = context.ReadValue<Vector2>().x;
+    }
+    public void Jump(InputAction.CallbackContext context) 
+    {
+        if (jumpsRemaining > 0)
+        {
+            if (context.performed)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
+                jumpsRemaining--;
+            }
+            else if (context.canceled)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+                jumpsRemaining--;
+            }
+        }
+    }
+    public void Gravity()
+    {
+        if (rb.linearVelocity.y < 0f)
+        {
+            rb.gravityScale = baseGravity * fallSpeedMult;
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, Mathf.Max(rb.linearVelocity.y, -maxFallSpeed));
+        }
+        else
+        {
+            rb.gravityScale = baseGravity;
+        }
     }
 }

@@ -321,8 +321,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0c4395980f77f74e8d38c2f0712f177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  destinations: []
+  pointA: {fileID: 5787923836856157741}
+  pointB: {fileID: 3782519007021991821}
+  moveSpeed: 2
 --- !u!1 &6695658041085428213
 GameObject:
   m_ObjectHideFlags: 0

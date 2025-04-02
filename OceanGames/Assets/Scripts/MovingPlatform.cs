@@ -6,41 +6,27 @@ using UnityEngine.Rendering;
 
 public class MovingPlatform : MonoBehaviour
 {
-    public float speed = 5f;
-    bool running;
-    public Transform[] destinations;
-    public Queue<Transform> queue = new Queue<Transform>();
+    public Transform pointA;
+    public Transform pointB;
+    public float moveSpeed;
     Transform parent;
+
+    Vector3 nextPos;
+
     private void Start()
     {
-        for (int i = 0; i < destinations.Length; i++)
-        {
-            queue.Enqueue(destinations[i]);
-        }
-        
+        nextPos = pointB.position;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        if (!running)
+        transform.position = Vector3.MoveTowards(transform.position, nextPos, moveSpeed * Time.deltaTime);
+        if (transform.position == nextPos)
         {
-            StartCoroutine(MoveTo());
+            nextPos = (nextPos == pointA.position) ? pointB.position : pointA.position;
         }
     }
 
-    IEnumerator MoveTo()
-    {
-        running = true;
-        Transform currentTarget = queue.Dequeue();
-        queue.Enqueue(currentTarget);
-        while (Vector3.Distance(currentTarget.position, transform.position) > 0.1f)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, currentTarget.position, Time.deltaTime * speed);
-            yield return null;
-        }
-        running = false;
-        yield return null;
-    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
