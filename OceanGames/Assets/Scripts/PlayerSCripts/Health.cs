@@ -8,7 +8,6 @@ public class Health : MonoBehaviour
 
     public Image[] heart;
     public Sprite fullHeart;
-    public Sprite emptyHeart;
 
 
     void Update()

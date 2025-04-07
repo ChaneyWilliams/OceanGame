@@ -9,7 +9,6 @@ public class Bullet : MonoBehaviour
     public float force;
     public float damage = 5;
     public float timer;
-
     private void Start()
     {
         cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();

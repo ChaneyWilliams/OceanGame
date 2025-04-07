@@ -11,19 +11,20 @@ public class CameraFollow : MonoBehaviour
         camerapos = transform.position;
         Camera cam = GetComponent<Camera>();
         cam.orthographicSize = 9;
+        transform.position = player.position;
     }
 
     private void LateUpdate()
     {
         if (player != null)
         {
-            if (player.position.y > camerapos.y + 3)
+            if (player.position.y > camerapos.y + 4)
             {
-                yValue = player.position.y - 3f;
+                yValue = player.position.y - 4f;
             }
-            else if (player.position.y < camerapos.y - 3)
+            else if (player.position.y < camerapos.y - 4)
             {
-                yValue = player.position.y + 3f;
+                yValue = player.position.y + 4f;
             }
             transform.position = new Vector3(camerapos.x + player.position.x, yValue, -15);
         }

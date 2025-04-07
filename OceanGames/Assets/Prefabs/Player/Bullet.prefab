@@ -168,3 +168,4 @@ MonoBehaviour:
   force: 20
   damage: 5
   timer: 1
+  hitEffect: {fileID: 2350378389509657758, guid: db0761ebda8c2134583c0a697677b5a3, type: 3}

@@ -58,7 +58,6 @@ public class Player : MonoBehaviour
         }
         else 
         {
-            
             rb.linearVelocity = Vector2.zero;
             rb.gravityScale = 0;
         }
@@ -72,15 +71,15 @@ public class Player : MonoBehaviour
             Debug.Log(health.health);
             StartCoroutine(flasher.Flash(2, color, 4));
         }
-        if (collision.gameObject.CompareTag("KillBox"))
+        else if (collision.gameObject.CompareTag("KillBox"))
         {
             Death();
         }
-        if (collision.gameObject.CompareTag("NextScene"))
+        else if (collision.gameObject.CompareTag("NextScene"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-        if (collision.gameObject.CompareTag("Winner"))
+        else if (collision.gameObject.CompareTag("Winner"))
         {
             Time.timeScale = 0f;
             bulletPrefab.SetActive(false);
@@ -104,14 +103,6 @@ public class Player : MonoBehaviour
         {
             spriteRenderer.flipX = false;
         }
-    }
-    public void SetSpeed(float newspeed)
-    {
-        speed = newspeed;
-    }
-    public float GetSpeed() 
-    {
-        return speed;
     }
     public void Death()
     {

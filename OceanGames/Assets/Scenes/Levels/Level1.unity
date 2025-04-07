@@ -262,6 +262,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1883031970434115797, guid: defeb395a7c99a3438e7a4f3dee0a9cf, type: 3}
   m_PrefabInstance: {fileID: 2018343525}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &290314299 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1721846900145111461, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
+  m_PrefabInstance: {fileID: 1652184659}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2b40ffe3fdfb37418df2fcf953f3ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &353165706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1598,10 +1609,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 152173169941093111, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 781802879827587658, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
       propertyPath: m_GravityScale
       value: 5
@@ -1613,6 +1620,34 @@ PrefabInstance:
     - target: {fileID: 948437299873463548, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
       propertyPath: timeBetweenShots
       value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300662500942517659, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300662500942517659, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300662500942517659, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 290314299}
+    - target: {fileID: 2300662500942517659, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300662500942517659, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300662500942517659, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Shooting, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300662500942517659, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2673526897683642683, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -1628,10 +1663,6 @@ PrefabInstance:
       objectReference: {fileID: 1929974407}
     - target: {fileID: 3120693883565643193, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
       propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3396416873604957434, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3407492556920318825, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
@@ -1704,10 +1735,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4431355545150134289, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
       propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4498580095890382073, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5783864223411515618, guid: 1bc2d90a115bc924982141090c733d10, type: 3}
