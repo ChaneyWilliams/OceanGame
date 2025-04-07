@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Shooting : MonoBehaviour
 {
@@ -34,11 +35,22 @@ public class Shooting : MonoBehaviour
                 timer = 0;
             }
         }
-        if (Input.GetMouseButton(0) && canFire)
+    }
+    public void Shoot(InputAction.CallbackContext context)
+    {
+        if (canFire)
         {
             Instantiate(bullet, bulletTrans.position, Quaternion.identity);
             canFire = false;
         }
-        
+        else if (!canFire)
+        {
+            timer += Time.deltaTime;
+            if (timer > timeBetween)
+            {
+                canFire = true;
+                timer = 0;
+            }
+        }
     }
 }

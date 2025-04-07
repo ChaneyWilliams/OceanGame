@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 public class Health : MonoBehaviour
@@ -25,7 +26,7 @@ public class Health : MonoBehaviour
             }
             else
             {
-                heart[i].sprite = emptyHeart;
+                heart[i].gameObject.SetActive(false);
             }
             if (i < numOfHearts)
             {

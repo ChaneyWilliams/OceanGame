@@ -140,6 +140,7 @@ public class Player : MonoBehaviour
             }
         }
     }
+    
     public void Gravity()
     {
         if (rb.linearVelocity.y < 0f)

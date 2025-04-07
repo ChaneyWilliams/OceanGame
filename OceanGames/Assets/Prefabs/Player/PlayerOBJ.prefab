@@ -551,4 +551,4 @@ MonoBehaviour:
   bulletTrans: {fileID: 5493330436696091374}
   bullet: {fileID: 934798244663781195, guid: 0931e643900b6cd4ab5954b4dd2293d1, type: 3}
   canFire: 0
-  timeBetween: 0.25
+  timeBetween: 0.5
