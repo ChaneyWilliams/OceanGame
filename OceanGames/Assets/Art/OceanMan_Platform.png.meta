@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      OceanMan_Platform_0: 2273446373681732925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

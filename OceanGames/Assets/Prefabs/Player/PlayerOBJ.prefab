@@ -132,8 +132,8 @@ GameObject:
   - component: {fileID: 8339449635308821666}
   - component: {fileID: 966696506383184147}
   - component: {fileID: 2854841532636863355}
-  - component: {fileID: 662398122202428752}
   - component: {fileID: 8580028854680798467}
+  - component: {fileID: 662398122202428752}
   - component: {fileID: 4193194237284854302}
   m_Layer: 0
   m_Name: PlayerOBJ
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   jumpingPower: 15
-  color: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 0.94716984, g: 0, b: 0, a: 1}
   numJumps: 2
   baseGravity: 2
   maxFallSpeed: 20
@@ -331,6 +331,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hit: 0
   isFlashing: 0
+--- !u!114 &8580028854680798467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6797106216604528307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0cb0403f62e104ba7e57baf0d6252f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  numOfHearts: 3
+  heart:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fullHeart: {fileID: 0}
 --- !u!95 &662398122202428752
 Animator:
   serializedVersion: 7
@@ -353,26 +372,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8580028854680798467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6797106216604528307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df0cb0403f62e104ba7e57baf0d6252f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 3
-  numOfHearts: 3
-  heart:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  fullHeart: {fileID: 0}
-  emptyHeart: {fileID: 0}
 --- !u!114 &4193194237284854302
 MonoBehaviour:
   m_ObjectHideFlags: 0

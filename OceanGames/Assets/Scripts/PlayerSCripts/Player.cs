@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public float speed = 8f;
     public float jumpingPower = 16f;
     SpriteFlasher flasher;
-    public Color color = Color.white;
+    public Color color;
     public int numJumps = 2;
     int jumpsRemaining;
     public float baseGravity = 2f;
@@ -61,7 +61,6 @@ public class Player : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
             rb.gravityScale = 0;
         }
-
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
