@@ -19,7 +19,7 @@ namespace Pathfinding {
 		public Transform idlePos;
 		public float aggroRange = 10f;
 		IAstarAI ai;
-
+		bool facingRight;
 		SpriteRenderer spriteRenderer;
         private void Start()
         {
@@ -55,14 +55,21 @@ namespace Pathfinding {
 		}
         private void Flip()
         {
-            if (ai.velocity.x < 0)
+            if (ai.velocity.x >= 0 && facingRight)
             {
-                spriteRenderer.flipX = true;
+                facingRight = !facingRight;
+                Vector3 theScale = gameObject.transform.localScale;
+                theScale.x *= -1;
+                gameObject.transform.localScale = theScale;
             }
-            else if (ai.velocity.x > 0)
-            {
-                spriteRenderer.flipX = false;
+			else if (ai.velocity.x < 0 && !facingRight)
+			{
+                facingRight = !facingRight;
+                Vector3 theScale = gameObject.transform.localScale;
+                theScale.x *= -1;
+                gameObject.transform.localScale = theScale;
             }
+            
         }
     }
 }

@@ -306,6 +306,7 @@ MonoBehaviour:
   baseGravity: 2
   maxFallSpeed: 20
   fallSpeedMult: 2
+  jumpBubbles: {fileID: 7694037842462760768, guid: 245d3ce23c60eaa47be49adc82634bab, type: 3}
   timeBetweenShots: 0.5
   spriteRenderer: {fileID: 9182213864023591725}
   bulletPrefab: {fileID: 934798244663781195, guid: 0931e643900b6cd4ab5954b4dd2293d1, type: 3}

@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     public float baseGravity = 2f;
     public float maxFallSpeed = 10f;
     public float fallSpeedMult = 2f;
+    public GameObject jumpBubbles;
 
     public float timeBetweenShots = 1.5f;
     [SerializeField] private SpriteRenderer spriteRenderer;
@@ -122,6 +123,7 @@ public class Player : MonoBehaviour
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
                 jumpsRemaining--;
+                if (jumpsRemaining == 0) { Instantiate(jumpBubbles, transform.position, Quaternion.identity); }
             }
             else if (context.canceled)
             {
