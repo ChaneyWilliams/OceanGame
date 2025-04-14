@@ -11,17 +11,33 @@ public class Glitter : MonoBehaviour
 
     float time;
     float startIntensity;
-    public Light2D light;
+    public Light2D lights;
 
     private void Start()
     {
-        light = GetComponent<Light2D>();
-        startIntensity = light.intensity;
+        lights = GetComponent<Light2D>();
+        startIntensity = lights.intensity;
     }
 
     private void Update()
     {
         time += Time.deltaTime * (1 - Random.Range(-speedRand, speedRand)) * Mathf.PI;
-        light.intensity = startIntensity + Mathf.Sin(time * flickersPerSec) * flickerIntensity;
+        lights.intensity = startIntensity + Mathf.Sin(time * flickersPerSec) * flickerIntensity;
+    }
+
+    public void SetIntensity(float newInten)
+    {
+        flickerIntensity = newInten;
+    }
+    public void SetPerSec(float newPerSec) 
+    { 
+    
+        flickersPerSec = newPerSec;
+    }
+
+    public void SetSpeedRand(float newSpeedrand) 
+    { 
+    
+        speedRand = newSpeedrand;
     }
 }

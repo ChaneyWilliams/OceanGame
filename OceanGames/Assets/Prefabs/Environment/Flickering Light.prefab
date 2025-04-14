@@ -100,4 +100,4 @@ MonoBehaviour:
   flickerIntensity: 1
   flickersPerSec: 5
   speedRand: 1
-  light: {fileID: 6283908137618924491}
+  lights: {fileID: 0}
