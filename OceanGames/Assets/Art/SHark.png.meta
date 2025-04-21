@@ -1,0 +1,1042 @@
+fileFormatVersion: 2
+guid: 11420f5b28e76f944b91a987b93b6759
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3151356614501667192
+    second: SHark_0
+  - first:
+      213: 5804897624133312101
+    second: SHark_1
+  - first:
+      213: -1241186960059601834
+    second: SHark_2
+  - first:
+      213: -4738691295383413130
+    second: SHark_3
+  - first:
+      213: -6646317423494046628
+    second: SHark_4
+  - first:
+      213: -1977154446863034898
+    second: SHark_5
+  - first:
+      213: -8537562924643405054
+    second: SHark_6
+  - first:
+      213: -6270645723513533829
+    second: SHark_7
+  - first:
+      213: 4393707002219714965
+    second: SHark_8
+  - first:
+      213: 663843680048131754
+    second: SHark_9
+  - first:
+      213: -3482008278363029344
+    second: SHark_10
+  - first:
+      213: -4296204177936211155
+    second: SHark_11
+  - first:
+      213: 3634152057991715914
+    second: SHark_12
+  - first:
+      213: -8375034494788384094
+    second: SHark_13
+  - first:
+      213: 7199494188663032059
+    second: SHark_14
+  - first:
+      213: 252557616498123105
+    second: SHark_15
+  - first:
+      213: -2694500173890979744
+    second: SHark_16
+  - first:
+      213: 5533574993739430902
+    second: SHark_17
+  - first:
+      213: 2706223658437818764
+    second: SHark_18
+  - first:
+      213: -4536638989408417823
+    second: SHark_19
+  - first:
+      213: 3601655711198125342
+    second: SHark_20
+  - first:
+      213: 4401539246729662528
+    second: SHark_21
+  - first:
+      213: -632571543303961887
+    second: SHark_22
+  - first:
+      213: 5101738150365700498
+    second: SHark_23
+  - first:
+      213: -3382308612793896280
+    second: SHark_24
+  - first:
+      213: -9037367360638252760
+    second: SHark_25
+  - first:
+      213: 2538193509993476878
+    second: SHark_26
+  - first:
+      213: -7168939226887394480
+    second: SHark_27
+  - first:
+      213: -5172455263650930215
+    second: SHark_28
+  - first:
+      213: 5399550427116981413
+    second: SHark_29
+  - first:
+      213: -7091809634401273410
+    second: SHark_30
+  - first:
+      213: -8881995122114727135
+    second: SHark_31
+  - first:
+      213: 6298462918965042133
+    second: SHark_32
+  - first:
+      213: -2978546644424313978
+    second: SHark_33
+  - first:
+      213: 3290113588358518702
+    second: SHark_34
+  - first:
+      213: 110181727555145636
+    second: SHark_35
+  - first:
+      213: -3623643711667414196
+    second: SHark_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SHark_0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 578
+        width: 1419
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87113ffe42edbbb20800000000000000
+      internalID: 3151356614501667192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_1
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 877
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e99fb22a32f8050800000000000000
+      internalID: 5804897624133312101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_2
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 836
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cecc1390b66cee0800000000000000
+      internalID: -1241186960059601834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_3
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 864
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e9f6e9f59cc3eb0800000000000000
+      internalID: -4738691295383413130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_4
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 578
+        width: 1419
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cd52c548983c3a0800000000000000
+      internalID: -6646317423494046628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_5
+      rect:
+        serializedVersion: 2
+        x: 3541
+        y: 877
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee515a8818cbf84e0800000000000000
+      internalID: -1977154446863034898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_6
+      rect:
+        serializedVersion: 2
+        x: 3543
+        y: 836
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203b51501cb748980800000000000000
+      internalID: -8537562924643405054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_7
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 864
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a47a110f03af8a0800000000000000
+      internalID: -6270645723513533829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_8
+      rect:
+        serializedVersion: 2
+        x: 4020
+        y: 578
+        width: 1527
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599d37a5d3599fc30800000000000000
+      internalID: 4393707002219714965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_9
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 578
+        width: 1527
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae28af4f42763900800000000000000
+      internalID: 663843680048131754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_10
+      rect:
+        serializedVersion: 2
+        x: 7860
+        y: 578
+        width: 1262
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0c3375beb6dafc0800000000000000
+      internalID: -3482008278363029344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_11
+      rect:
+        serializedVersion: 2
+        x: 9301
+        y: 877
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23209bff01d064c0800000000000000
+      internalID: -4296204177936211155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_12
+      rect:
+        serializedVersion: 2
+        x: 9303
+        y: 836
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cd95cca0a1f6230800000000000000
+      internalID: 3634152057991715914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_13
+      rect:
+        serializedVersion: 2
+        x: 9336
+        y: 864
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aace74ff76e5cb80800000000000000
+      internalID: -8375034494788384094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_14
+      rect:
+        serializedVersion: 2
+        x: 9780
+        y: 578
+        width: 1532
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8cfbde1ddb9e360800000000000000
+      internalID: 7199494188663032059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_15
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 817
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161a0b860d3418300800000000000000
+      internalID: 252557616498123105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_16
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 847
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068ffff2e563b9ad0800000000000000
+      internalID: -2694500173890979744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_17
+      rect:
+        serializedVersion: 2
+        x: 3547
+        y: 817
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbb2df73253bcc40800000000000000
+      internalID: 5533574993739430902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_18
+      rect:
+        serializedVersion: 2
+        x: 3590
+        y: 847
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89b1f344107e8520800000000000000
+      internalID: 2706223658437818764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_19
+      rect:
+        serializedVersion: 2
+        x: 9203
+        y: 791
+        width: 76
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7cf1210ee9a01c0800000000000000
+      internalID: -4536638989408417823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_20
+      rect:
+        serializedVersion: 2
+        x: 9307
+        y: 817
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d983579c6abf130800000000000000
+      internalID: 3601655711198125342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_21
+      rect:
+        serializedVersion: 2
+        x: 9350
+        y: 847
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0401342ef98651d30800000000000000
+      internalID: 4401539246729662528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_22
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 810
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2c85a6887a837f0800000000000000
+      internalID: -632571543303961887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_23
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 827
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2912b9d41d30dc640800000000000000
+      internalID: 5101738150365700498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_24
+      rect:
+        serializedVersion: 2
+        x: 3523
+        y: 810
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2fca5ac30af01d0800000000000000
+      internalID: -3382308612793896280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_25
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 827
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829827c7442d49280800000000000000
+      internalID: -9037367360638252760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_26
+      rect:
+        serializedVersion: 2
+        x: 9283
+        y: 810
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03fc56ac89793320800000000000000
+      internalID: 2538193509993476878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_27
+      rect:
+        serializedVersion: 2
+        x: 9288
+        y: 827
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b630d71cfc28c90800000000000000
+      internalID: -7168939226887394480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_28
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 793
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1ac71b75fb738b0800000000000000
+      internalID: -5172455263650930215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_29
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 793
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5accd13618e0fea40800000000000000
+      internalID: 5399550427116981413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_30
+      rect:
+        serializedVersion: 2
+        x: 9272
+        y: 793
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9b1d626b4d49d90800000000000000
+      internalID: -7091809634401273410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_31
+      rect:
+        serializedVersion: 2
+        x: 9118
+        y: 734
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1237999ce70dcb480800000000000000
+      internalID: -8881995122114727135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_32
+      rect:
+        serializedVersion: 2
+        x: 9206
+        y: 760
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db91e377a2a86750800000000000000
+      internalID: 6298462918965042133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_33
+      rect:
+        serializedVersion: 2
+        x: 9222
+        y: 749
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6833820ab931aa6d0800000000000000
+      internalID: -2978546644424313978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_34
+      rect:
+        serializedVersion: 2
+        x: 9134
+        y: 708
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea79bc870e4d8ad20800000000000000
+      internalID: 3290113588358518702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_35
+      rect:
+        serializedVersion: 2
+        x: 9143
+        y: 687
+        width: 71
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afc9ab82b1778100800000000000000
+      internalID: 110181727555145636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHark_36
+      rect:
+        serializedVersion: 2
+        x: 9133
+        y: 688
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b5c7d3e3b36bdc0800000000000000
+      internalID: -3623643711667414196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
