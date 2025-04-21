@@ -123,7 +123,13 @@ public class Player : MonoBehaviour
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
                 jumpsRemaining--;
-                if (jumpsRemaining == 0) { Instantiate(jumpBubbles, transform.position, Quaternion.identity); }
+                if (jumpsRemaining == 0) 
+                {
+
+                    SoundEfffectManager.Play("Bubbles");
+                    Instantiate(jumpBubbles, transform.position, Quaternion.identity); 
+                
+                }
             }
             else if (context.canceled)
             {
