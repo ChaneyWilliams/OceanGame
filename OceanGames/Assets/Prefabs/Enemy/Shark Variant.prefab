@@ -44,6 +44,10 @@ PrefabInstance:
       propertyPath: aggroRange
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 3707512430743986790, guid: a3651b52f92d8274293f27170b7520cc, type: 3}
+      propertyPath: health
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 4563725681372405031, guid: a3651b52f92d8274293f27170b7520cc, type: 3}
       propertyPath: m_Name
       value: Shark Variant
@@ -121,4 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   idlePos: {fileID: 0}
-  aggroRange: 10
+  aggroRange: 20

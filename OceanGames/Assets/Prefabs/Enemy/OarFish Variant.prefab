@@ -24,6 +24,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 7540551107760407731, guid: 35baa1557cef4684c959bef502c6f1d7, type: 3}
+    - target: {fileID: 3707512430743986790, guid: a3651b52f92d8274293f27170b7520cc, type: 3}
+      propertyPath: health
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4563725681372405031, guid: a3651b52f92d8274293f27170b7520cc, type: 3}
       propertyPath: m_Name
       value: OarFish Variant

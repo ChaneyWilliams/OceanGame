@@ -239,7 +239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particles: {fileID: 739010655557226536, guid: be111cdfcfb273846b40d9552988e3c8, type: 3}
   color: {r: 0.90188676, g: 0.07317187, b: 0.07317187, a: 1}
-  health: 10
+  health: 15
 --- !u!114 &7158353872884249984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,7 +298,7 @@ MonoBehaviour:
   radius: 0.5
   height: 1
   canMove: 1
-  maxSpeed: 3
+  maxSpeed: 4
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -339,7 +339,7 @@ MonoBehaviour:
   version: 1
   target: {fileID: 5126078086375523764, guid: 61ed99fe2ebe0d849a0e7abfd7b63069, type: 3}
   idlePos: {fileID: 0}
-  aggroRange: 8
+  aggroRange: 20
 --- !u!95 &5546476883116792910
 Animator:
   serializedVersion: 7
