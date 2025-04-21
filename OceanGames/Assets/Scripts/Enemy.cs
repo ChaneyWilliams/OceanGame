@@ -9,12 +9,10 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject particles;
     public Color color = Color.white;
     public float health = 10;
-    SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
         flasher = GetComponent<SpriteFlasher>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -27,6 +25,7 @@ public class Enemy : MonoBehaviour
         }
         if (health <= 0)
         {
+            SoundEfffectManager.Play("Bubbles");
             Instantiate(particles, transform.position, Quaternion.identity);
             Object.Destroy(this.gameObject);
         }
