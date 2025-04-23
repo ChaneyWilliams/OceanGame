@@ -25,7 +25,7 @@ public class Health : MonoBehaviour
             }
             else
             {
-                heart[i].gameObject.SetActive(false);
+                heart[i].gameObject.GetComponent<Image>().color = Color.red;
             }
             if (i < numOfHearts)
             {

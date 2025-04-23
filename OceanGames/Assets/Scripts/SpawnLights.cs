@@ -12,7 +12,7 @@ public class SpawnLights : MonoBehaviour
         brighten = GetComponent<BrightLight>();
         for (int i = 0; i < numOfLights; i++) 
         {
-            GameObject newLight = Instantiate(lights, transform.position + new Vector3(Random.Range(-3, 3), Random.Range(-0.5f, 0.5f), 0), Quaternion.identity);
+            GameObject newLight = Instantiate(lights, transform.position + new Vector3(Random.Range(-3, 3), Random.Range(-0.25f, 0.25f), 0), Quaternion.identity);
             newLight.transform.parent = transform;
             brighten.AddLight(newLight);
 

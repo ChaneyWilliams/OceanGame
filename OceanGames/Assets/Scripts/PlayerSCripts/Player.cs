@@ -125,7 +125,6 @@ public class Player : MonoBehaviour
                 jumpsRemaining--;
                 if (jumpsRemaining == 0) 
                 {
-
                     SoundEfffectManager.Play("Bubbles");
                     Instantiate(jumpBubbles, transform.position, Quaternion.identity); 
                 
