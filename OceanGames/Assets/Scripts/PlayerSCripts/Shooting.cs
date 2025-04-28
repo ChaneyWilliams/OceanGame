@@ -40,6 +40,7 @@ public class Shooting : MonoBehaviour
     {
         if (canFire)
         {
+            SoundEfffectManager.Play("ShootSound");
             Instantiate(bullet, bulletTrans.position, Quaternion.identity);
             canFire = false;
         }

@@ -10,10 +10,13 @@ public class BrightLight : MonoBehaviour
     public float speed = 2f;
     public Collider2D player;
     Collider2D collision;
+    [SerializeField] AudioClip clip;
+    [SerializeField] AudioSource source;
 
     private void Start()
     {
         collision = GetComponent<BoxCollider2D>();
+        source = GetComponent<AudioSource>();
     }
     private void Update()
     {
@@ -31,6 +34,14 @@ public class BrightLight : MonoBehaviour
                 time -= Time.deltaTime * speed;
                 GetBright(time);
             }
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            source.pitch = Random.Range(.75f, 1.5f);
+            source.PlayOneShot(clip);
         }
     }
 

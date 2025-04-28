@@ -24,6 +24,7 @@ public class Bullet : MonoBehaviour
     {
         if (!collision.gameObject.CompareTag("Player"))
         {
+            SoundEfffectManager.Play("BubblePop");
             Destroy(gameObject);
         }
     }

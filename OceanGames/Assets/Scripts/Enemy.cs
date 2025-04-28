@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
         }
         if (health <= 0)
         {
-            SoundEfffectManager.Play("Bubbles");
+            SoundEfffectManager.Play("DeathSound");
             Instantiate(particles, transform.position, Quaternion.identity);
             Object.Destroy(this.gameObject);
         }

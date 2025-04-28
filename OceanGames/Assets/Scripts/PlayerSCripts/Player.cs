@@ -67,6 +67,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy") && !flasher.isFlashing)
         {
+            SoundEfffectManager.Play("HitSound");
             health.health -= 1;
             Debug.Log(health.health);
             StartCoroutine(flasher.Flash(2, color, 4));

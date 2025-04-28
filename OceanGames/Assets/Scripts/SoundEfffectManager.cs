@@ -26,6 +26,14 @@ public class SoundEfffectManager : MonoBehaviour
     {
         AudioClip audioClip = library.GetRandomClip(audioName);
         if (audioClip != null) {
+            if(audioClip.name == "TurnOn")
+            {
+                audioSource.pitch = Random.Range(.75f, 1.5f);
+            }
+            else if(audioClip.name == "Shoot")
+            {
+                audioSource.pitch = Random.Range(1, 1.5f);
+            }
             audioSource.pitch = Random.Range(.75f, 1.5f);
             audioSource.PlayOneShot(audioClip);
         }
