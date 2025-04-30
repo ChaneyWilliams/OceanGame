@@ -8,15 +8,16 @@ public class BrightLight : MonoBehaviour
     List<GameObject> lights = new List<GameObject>();
     float time = 0;
     public float speed = 2f;
-    public Collider2D player;
+    Collider2D player;
     Collider2D collision;
     [SerializeField] AudioClip clip;
-    [SerializeField] AudioSource source;
+    AudioSource source;
 
     private void Start()
     {
         collision = GetComponent<BoxCollider2D>();
         source = GetComponent<AudioSource>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>();
     }
     private void Update()
     {

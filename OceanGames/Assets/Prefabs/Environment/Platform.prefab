@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2392073622239454686}
   - component: {fileID: 2972441822040032885}
   - component: {fileID: 3068521642082272827}
-  - component: {fileID: 8905280195045112598}
   - component: {fileID: 3485712453160642082}
+  - component: {fileID: -3421521705918313313}
   m_Layer: 3
   m_Name: Platform
   m_TagString: Untagged
@@ -150,22 +150,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lights: {fileID: 5779339086664784620, guid: 31d040729dece774c957afa4ef427027, type: 3}
---- !u!114 &8905280195045112598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2854327795920529617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6745b60400c3cf74bb558fbd022566ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  player: {fileID: 0}
-  clip: {fileID: 8300000, guid: 6ec64177c89002844bac14e35e68c151, type: 3}
-  source: {fileID: 3485712453160642082}
 --- !u!82 &3485712453160642082
 AudioSource:
   m_ObjectHideFlags: 0
@@ -263,3 +247,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-3421521705918313313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2854327795920529617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6745b60400c3cf74bb558fbd022566ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  clip: {fileID: 8300000, guid: 6ec64177c89002844bac14e35e68c151, type: 3}
+  source: {fileID: 0}
