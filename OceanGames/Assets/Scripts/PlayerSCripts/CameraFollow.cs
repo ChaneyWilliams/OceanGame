@@ -2,15 +2,16 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform player;
     Vector3 camerapos;
     float yValue = 0;
     public float diff = 3;
+    Transform player;
     public void Awake()
     {
         camerapos = transform.position;
         Camera cam = GetComponent<Camera>();
         cam.orthographicSize = 10;
+        player = player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         transform.position = player.position;
         
     }

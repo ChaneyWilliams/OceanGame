@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using static Pathfinding.Util.RetainedGizmos;
 using UnityEngine.InputSystem;
+using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -17,6 +19,8 @@ public class Player : MonoBehaviour
     public float maxFallSpeed = 10f;
     public float fallSpeedMult = 2f;
     public GameObject jumpBubbles;
+    public Animator trans;
+    public float transtime = 1;
 
     public float timeBetweenShots = 1.5f;
     [SerializeField] private SpriteRenderer spriteRenderer;
@@ -78,7 +82,7 @@ public class Player : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("NextScene"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
         }
         else if (collision.gameObject.CompareTag("Winner"))
         {
@@ -150,5 +154,11 @@ public class Player : MonoBehaviour
         {
             rb.gravityScale = baseGravity;
         }
+    }
+    IEnumerator LoadLevel(int levelIndex)
+    {
+        trans.SetTrigger("Start");
+        yield return new WaitForSeconds(transtime);
+        SceneManager.LoadScene(levelIndex);
     }
 }
