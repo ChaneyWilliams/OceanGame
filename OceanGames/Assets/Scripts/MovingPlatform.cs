@@ -10,6 +10,7 @@ public class MovingPlatform : MonoBehaviour
     public Transform pointB;
     public float moveSpeed;
     Transform parent;
+    public bool canMove = true;
 
     Vector3 nextPos;
 
@@ -20,10 +21,13 @@ public class MovingPlatform : MonoBehaviour
 
     private void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, nextPos, moveSpeed * Time.deltaTime);
-        if (transform.position == nextPos)
+        if (canMove)
         {
-            nextPos = (nextPos == pointA.position) ? pointB.position : pointA.position;
+            transform.position = Vector3.MoveTowards(transform.position, nextPos, moveSpeed * Time.deltaTime);
+            if (transform.position == nextPos)
+            {
+                nextPos = (nextPos == pointA.position) ? pointB.position : pointA.position;
+            }
         }
     }
 
@@ -33,6 +37,7 @@ public class MovingPlatform : MonoBehaviour
         {
             parent = collision.gameObject.transform.parent;
             collision.gameObject.transform.parent = transform;
+            canMove = true;
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
