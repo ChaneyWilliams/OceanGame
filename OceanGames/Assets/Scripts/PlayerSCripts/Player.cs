@@ -93,7 +93,7 @@ public class Player : MonoBehaviour
     }
     private void GroundCheck()
     {
-        if (Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer))
+        if (Physics2D.OverlapCircle(groundCheck.position, 0.4f, groundLayer))
         {
             jumpsRemaining = numJumps;
         }
