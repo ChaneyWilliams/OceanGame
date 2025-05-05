@@ -18,6 +18,7 @@ public class MainMenu : MonoBehaviour
     }
     public void StartGame()
     {
+        SoundEfffectManager.Play("ButtonClick");
         Time.timeScale = 1f;
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
@@ -25,16 +26,20 @@ public class MainMenu : MonoBehaviour
     //Guess what this does
     public void QuitGame()
     {
+        SoundEfffectManager.Play("ButtonClick");
         Application.Quit();
     }
 
     public void Credits()
     {
+        transition.SetTrigger("Start");
         StartCoroutine(LoadLevel(4));
+        SoundEfffectManager.Play("ButtonClick");
     }
 
     public void Skip()
     {
+        SoundEfffectManager.Play("ButtonClick");
         videoPlayer.Pause();
         screen.SetActive(false);
     }

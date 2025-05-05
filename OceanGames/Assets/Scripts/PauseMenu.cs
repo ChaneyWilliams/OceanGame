@@ -22,6 +22,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void Resume()
     {
+        SoundEfffectManager.Play("ButtonClick");
         pauseMenuUI.SetActive(false);
         bulletPrefab.SetActive(true);
         GameIsPaused = false;
@@ -37,11 +38,13 @@ public class PauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
+        SoundEfffectManager.Play("ButtonClick");
         Time.timeScale = 1f;
         SceneManager.LoadSceneAsync("MainMenu");
     }
     public void Retry()
     {
+        SoundEfffectManager.Play("ButtonClick");
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
